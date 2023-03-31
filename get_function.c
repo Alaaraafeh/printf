@@ -2,10 +2,8 @@
 
 /**
  * get_function - function specifiers.
- *
  * @con_spec: Conversion specifiers.
  * @args: arguments.
- *
  * Return: char count.
  */
 
@@ -27,7 +25,9 @@ int get_function(char con_spec, va_list args)
 	while (spec[i].specifiers)
 	{
 		if (con_spec == spec[i].specifiers)
+		{
 			count_fun += spec[i].f(args);
+		}
 		i++;
 	}
 
