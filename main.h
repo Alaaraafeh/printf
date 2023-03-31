@@ -7,7 +7,6 @@
 
 /**
  * * struct convert - a structure for symbols and functions.
- * *
  * * @op: The operator.
  * * @f: The function.
  * */
