@@ -2,7 +2,6 @@
 
 /**
  * _printf - prints to the console.
- *
  * @format: string with formated chars.
  * Return: int. (Total count of the printed chars)
  */
